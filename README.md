@@ -109,13 +109,12 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which URL do you navigate to in order to check that the ELK server is running? [Public_IP_Of_ELK_Server]:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-ssh sysadmin@(JumpBox_Public_IP)
-sudo docker container list -a
-sudo docker start (Name_Of_The_Container)
-sudo docker attach (Name_Of_The_Container)
-cd /etc/ansible/
-ansible-playbook elk.yml
-cd /etc/ansible/roles/
-ansible-playbook filebeat-playbook.yml
-[Public_IP_Of_ELK_Server]:5601/app/kibana to test
-
+- ssh sysadmin@(JumpBox_Public_IP)
+- sudo docker container list -a
+- sudo docker start (Name_Of_The_Container)
+- sudo docker attach (Name_Of_The_Container)
+- cd /etc/ansible/
+- ansible-playbook elk.yml
+- cd /etc/ansible/roles/
+- ansible-playbook filebeat-playbook.yml
+- [Public_IP_Of_ELK_Server]:5601/app/kibana to test
