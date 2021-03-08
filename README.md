@@ -118,3 +118,4 @@ ansible-playbook elk.yml
 cd /etc/ansible/roles/
 ansible-playbook filebeat-playbook.yml
 [Public_IP_Of_ELK_Server]:5601/app/kibana to test
+
